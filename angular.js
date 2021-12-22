@@ -28,6 +28,8 @@ module.exports = {
         "no-plusplus": "off",
         "array-callback-return": "off",
         "default-case": "off",
+        "prefer-destructuring": "off",
+        "no-nested-ternary": "off",
         // Should we turn off destructuring of arrays/objects
         "@typescript-eslint/unbound-method": [
           "error",
