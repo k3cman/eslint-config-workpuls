@@ -4,6 +4,7 @@ module.exports = {
       files: ["*.ts"],
       extends: [
         "eslint:recommended",
+        "plugin:import/recommended",
         "airbnb-typescript/base",
         "plugin:prettier/recommended",
       ],
